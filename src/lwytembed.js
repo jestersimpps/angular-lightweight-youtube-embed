@@ -30,10 +30,10 @@
     return {
       restrict: 'E',
       template: '<div ng-if="!playerloaded" class="youtube" ng-style="{width:playerWidth,height:playerHeight}" >' +
-        '<img ng-src="[[coverImage]]" class="thumb" >' +
+        '<img ng-src="{{coverImage}}" class="thumb" >' +
         '  <div class="play" ng-click="loadPlayer($event)"></div>' +
         '</div>' +
-        '<iframe ng-if="playerloaded" ng-src="[[iframeSrc]]" frameborder="0" ng-style="{width:playerWidth,height:playerHeight}" allowfullscreen></iframe>',
+        '<iframe ng-if="playerloaded" ng-src="{{iframeSrc}}" frameborder="0" ng-style="{width:playerWidth,height:playerHeight}" allowfullscreen></iframe>',
       link: function(scope, element, attrs) {
         scope.playerloaded = 0;
         var videoid = getVideoId(attrs.youtubeurl);
