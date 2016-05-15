@@ -1,6 +1,6 @@
 {
   "name": "angular-lightweight-youtube-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lightweight youtube embedder. Embeds coverimage on pageload, loads iframe only after click",
   "main": "dist/lwytembed.js",
   "scripts": {
