@@ -24,11 +24,23 @@ var yourapp = angular.module('yourapp', ['lwytEmbed']);
 If you are using the video url, you can use it like this:
 
 ```
-  <lwyt-embed youtubeurl="https://www.youtube.com/watch?v=jJG8p9udwMA" playerWidth="100%" playerHeight="250px"></lwyt-embed>
+<lwyt-embed
+  youtubeurl="https://www.youtube.com/watch?v=jJG8p9udwMA"
+  playerWidth="100%"
+  playerHeight="250px">
+</lwyt-embed>
 ```
 
 If you are using the videoid:
 
 ```
-  <lwyt-embed youtubeurl="https://www.youtube.com/watch?v={{post.videoid}}" playerWidth="100%" playerHeight="250px"></lwyt-embed>
+<lwyt-embed
+  youtubeurl="https://www.youtube.com/watch?v={{post.videoid}}"
+  playerWidth="100%"
+  playerHeight="250px">
+</lwyt-embed>
 ```
+
+* youtubeurl : set this to the url of the video you want to load
+* playerWidth : desired player width, takes css
+* playerHeight : desired player height, takes css
