@@ -1,0 +1,27 @@
+{
+  "name": "angular-lightweight-youtube-embed",
+  "version": "1.0.0",
+  "description": "lightweight youtube embedder. Embeds coverimage on pageload, loads iframe only after click",
+  "main": "dist/lwytembed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestersimpps/angular-lightweight-youtube-embed.git"
+  },
+  "keywords": [
+    "lightweight",
+    "youtube",
+    "embed"
+  ],
+  "author": "jestersimpps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jestersimpps/angular-lightweight-youtube-embed/issues"
+  },
+  "homepage": "https://github.com/jestersimpps/angular-lightweight-youtube-embed#readme",
+  "devDependencies": {
+    "gulp-uglify": "^1.5.3"
+  }
+}
