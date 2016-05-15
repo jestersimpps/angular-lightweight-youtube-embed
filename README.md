@@ -15,6 +15,12 @@ Install using npm:
 npm i angular-lightweight-youtube-embed
 ```
 
+Install using bower:
+
+```
+bower install lwytembed 
+```
+
 Use in your angular project by injecting the dependency like so:
 
 ```
