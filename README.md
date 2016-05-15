@@ -6,4 +6,4 @@ Clicking the play icon will load the youtube iframe.
 
 
 
-[example](https://raw.githubusercontent.com/jestersimpps/angular-lightweight-youtube-embed/master/example/example.png)
+![example](https://raw.githubusercontent.com/jestersimpps/angular-lightweight-youtube-embed/master/example/example.png)
